@@ -1,0 +1,14 @@
+package  pedroisrael3abrec;
+
+import pedroisrael3abrec.Produto;
+
+public class Main {
+
+    public static void main(String [] args) {
+        
+        Produto produto = new Produto();
+        produto.setNome("Apostila de Programação");
+        produto.setPreco(59.99);
+        System.out.println(produto);
+    }
+}
