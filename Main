@@ -1,0 +1,24 @@
+import sample.model.Aluno;
+import sample.model.Professor;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Aluno aluno = new Aluno();
+        aluno.setNome("Pedro Vilela");
+        aluno.setTelefone("48 99999-9999");
+        aluno.setEmail("pedro@gmail.com");
+        aluno.setMatrícula("Matriculado senai");
+        aluno.setMédia("7.0");
+        System.out.println(aluno);
+
+        Professor professor = new Professor();
+        professor.setNome("Paulo Battistella");
+        professor.setTelefone("48 98888-8888");
+        professor.setEmail("paulo@gmail.com");
+        professor.setSalario("R$ 5.000");
+        System.out.println(professor);
+    }
+}
